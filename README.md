@@ -1,5 +1,53 @@
-# Vue 3 + Vite
+# 八字基础知识学习平台
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+本项目是一个基于Vue 3 + Vite构建的八字基础知识学习平台，旨在帮助用户了解中国传统文化中的八字命理知识。
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 项目功能
+
+- **八字概述**：介绍八字的基本概念和历史渊源
+- **八字组成**：详细解析年柱、月柱、日柱、时柱的含义
+- **基本理论**：讲解阴阳、五行、天干地支等核心概念
+- **应用价值**：探讨八字在人生指导中的实际应用
+
+## 技术栈
+
+- Vue 3
+- Vite
+- Tailwind CSS
+
+## 使用说明
+
+1. 安装依赖
+```bash
+npm install
+```
+
+2. 开发模式
+```bash
+npm run dev
+```
+
+3. 项目构建
+```bash
+npm run build
+```
+
+4. 访问应用
+构建完成后，访问 `/bazi-pub/#/` 即可使用
+
+## 项目结构
+
+```
+src/
+├── assets/        # 静态资源
+├── components/    # 组件
+├── router/        # 路由配置
+├── views/         # 页面视图
+├── App.vue        # 根组件
+├── main.js        # 入口文件
+└── style.css      # 全局样式
+```
+
+## 贡献指南
+
+欢迎提交Issue和PR，共同完善项目
