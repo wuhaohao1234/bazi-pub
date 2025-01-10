@@ -1,0 +1,348 @@
+<template>
+  <div class="p-4 md:p-6 bg-gradient-to-b from-gray-50 to-gray-100">
+    <div class="max-w-4xl mx-auto">
+      <header class="text-center mb-12">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-gray-800">神煞</h1>
+        <p class="text-gray-600 text-lg">八字中的吉凶神煞</p>
+      </header>
+
+      <main class="space-y-8">
+        <!-- 神煞介绍 -->
+        <section class="bg-white rounded-lg shadow-md p-6">
+          <h2 class="text-xl font-bold mb-4 text-gray-800">什么是神煞？</h2>
+          <div class="space-y-4 text-gray-600 leading-relaxed">
+            <p>
+              神煞是八字命理中的重要概念，是对命局中特定组合的归类，用于预测人生吉凶。神为吉神，煞为凶煞。
+            </p>
+            <p>
+              通过神煞的判断，可以更细致地了解命局特点，预测人生际遇。
+            </p>
+          </div>
+        </section>
+
+        <!-- 吉神 -->
+        <section class="bg-white rounded-lg shadow-md p-6">
+          <h2 class="text-xl font-bold mb-6 text-gray-800">吉神</h2>
+          <div class="space-y-6">
+            <!-- 天乙贵人 -->
+            <div class="bg-green-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-green-800 mb-2">天乙贵人</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  最大的吉神，主贵人扶助、平安顺遂。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>甲戊庚牛羊，乙己鸡兔方</li>
+                  <li>丙丁猪鼠位，壬癸蛇兔藏</li>
+                  <li>六辛逢虎马，此是贵人乡</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 文昌贵人 -->
+            <div class="bg-green-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-green-800 mb-2">文昌贵人</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主文章显达、学业有成。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>甲乙巳午报，丙戊申宫朝</li>
+                  <li>丁己见亥子，庚辛寅卯招</li>
+                  <li>壬癸临午未，文昌贵人到</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 金舆 -->
+            <div class="bg-green-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-green-800 mb-2">金舆</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主富贵荣华、出入有车。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>年月日时支中见申子辰三会水局</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 禄神 -->
+            <div class="bg-green-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-green-800 mb-2">禄神</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主官禄、财运亨通。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>甲禄在寅，乙禄在卯</li>
+                  <li>丙戊禄在巳，丁己禄在午</li>
+                  <li>庚禄在申，辛禄在酉</li>
+                  <li>壬禄在亥，癸禄在子</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 天德贵人 -->
+            <div class="bg-green-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-green-800 mb-2">天德贵人</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主德行高尚、化解灾祸。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>春月丙寅，夏月丁巳</li>
+                  <li>秋月庚申，冬月辛亥</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 月德贵人 -->
+            <div class="bg-green-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-green-800 mb-2">月德贵人</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主月令之德、贵人相助。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>寅午戌月在丙，申子辰月在壬</li>
+                  <li>亥卯未月在甲，巳酉丑月在庚</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 天医 -->
+            <div class="bg-green-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-green-800 mb-2">天医</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主医术精湛、化解疾厄。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>寅午戌月见亥，申子辰月见巳</li>
+                  <li>巳酉丑月见寅，亥卯未月见申</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 三奇贵人 -->
+            <div class="bg-green-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-green-800 mb-2">三奇贵人</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主特殊才能、非凡成就。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>乙癸并临寅或午</li>
+                  <li>丙辛并临巳或酉</li>
+                  <li>戊己并临申或子</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 凶煞 -->
+        <section class="bg-white rounded-lg shadow-md p-6">
+          <h2 class="text-xl font-bold mb-6 text-gray-800">凶煞</h2>
+          <div class="space-y-6">
+            <!-- 羊刃 -->
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-red-800 mb-2">羊刃</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主刚强固执、易生灾祸。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>甲见卯，乙见辰，丙戊见巳</li>
+                  <li>丁己见午，庚见酉，辛见戌</li>
+                  <li>壬见亥，癸见子</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 孤辰 -->
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-red-800 mb-2">孤辰</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主孤独寡合、人缘欠佳。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>寅午戌见丑，申子辰见未</li>
+                  <li>巳酉丑见寅，亥卯未见申</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 劫煞 -->
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-red-800 mb-2">劫煞</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主遭遇劫难、意外损失。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>甲己年见申，乙庚年见酉</li>
+                  <li>丙辛年见亥，丁壬年见子</li>
+                  <li>戊癸年见寅</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 灾煞 -->
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-red-800 mb-2">灾煞</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主灾祸、意外、伤灾。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>甲己年见午，乙庚年见巳</li>
+                  <li>丙辛年见卯，丁壬年见寅</li>
+                  <li>戊癸年见子</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 咸池 -->
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-red-800 mb-2">咸池</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主桃花、感情纠葛。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>寅午戌年见酉，申子辰年见卯</li>
+                  <li>巳酉丑年见午，亥卯未年见子</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 空亡 -->
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-red-800 mb-2">空亡</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主虚无缥缈、难成实事。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>甲子旬空亡在戌亥，乙丑旬空亡在申酉</li>
+                  <li>丙寅旬空亡在午未，丁卯旬空亡在辰巳</li>
+                  <li>戊辰旬空亡在寅卯，己巳旬空亡在子丑</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 特殊神煞 -->
+        <section class="bg-white rounded-lg shadow-md p-6">
+          <h2 class="text-xl font-bold mb-6 text-gray-800">特殊神煞</h2>
+          <div class="space-y-6">
+            <!-- 将星 -->
+            <div class="bg-purple-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-purple-800 mb-2">将星</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主权威显达、领导才能。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>甲羊乙猴起，丙猪丁鸡位</li>
+                  <li>戊猴己羊临，庚猪辛鸡至</li>
+                  <li>壬猴癸羊方，将星之位是</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 华盖 -->
+            <div class="bg-purple-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-purple-800 mb-2">华盖</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主清高孤傲、宗教信仰。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>甲见戌，乙见亥，丙见子</li>
+                  <li>丁见丑，戊见寅，己见卯</li>
+                  <li>庚见辰，辛见巳，壬见午，癸见未</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 桃花 -->
+            <div class="bg-purple-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-purple-800 mb-2">桃花</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主感情丰富、异性缘佳。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>四柱中见红艳星：寅午戌见卯，申子辰见酉</li>
+                  <li>亥卯未见子，巳酉丑见午</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 天德月德合 -->
+            <div class="bg-purple-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-purple-800 mb-2">天德月德合</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主德行双全、贵人相助。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>天德与月德同时出现</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 神煞应用 -->
+        <section class="bg-white rounded-lg shadow-md p-6">
+          <h2 class="text-xl font-bold mb-4 text-gray-800">神煞的应用</h2>
+          <div class="space-y-4">
+            <p class="text-gray-600 leading-relaxed">
+              神煞在八字命理中主要用于：
+            </p>
+            <ul class="list-disc list-inside space-y-2 text-gray-600 pl-4">
+              <li>判断命局吉凶：通过神煞组合预测人生际遇</li>
+              <li>分析性格特征：了解个人性格倾向</li>
+              <li>预测事业发展：根据神煞特性指导职业选择</li>
+              <li>趋吉避凶：根据神煞特点选择有利时机</li>
+            </ul>
+            <div class="bg-blue-50 p-4 rounded-lg mt-4">
+              <p class="text-gray-800 font-semibold">使用要点：</p>
+              <p class="text-gray-600 mt-2">
+                神煞判断需要结合命局整体来分析，不能孤立地看待某个神煞。同时要注意神煞之间的制化关系。
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</template>
+
+<script setup>
+// 组件逻辑
+</script> 
