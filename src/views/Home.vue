@@ -57,12 +57,6 @@
               <li>天干：甲乙丙丁戊己庚辛壬癸十个天干</li>
               <li>地支：子丑寅卯辰巳午未申酉戌亥十二地支</li>
               <li>纳音：干支组合所蕴含的特定五行属性</li>
-              <li>神煞：命局中特定组合的吉凶归类
-                <ul class="list-disc list-inside pl-6 mt-2">
-                  <li>吉神：天乙贵人、文昌贵人、禄神、天德贵人等</li>
-                  <li>凶煞：羊刃、劫煞、灾煞、空亡等</li>
-                </ul>
-              </li>
             </ul>
           </div>
         </section>
@@ -89,4 +83,4 @@
 
 <script setup>
 // 组件逻辑
-</script>
+</script> 

@@ -147,6 +147,20 @@
                 </ul>
               </div>
             </div>
+
+            <!-- 福星 -->
+            <div class="bg-green-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-green-800 mb-2">福星</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主吉祥和顺，生活富裕。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>日支见福星，或年支与日支形成吉祥组合</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -244,6 +258,62 @@
                   <li>甲子旬空亡在戌亥，乙丑旬空亡在申酉</li>
                   <li>丙寅旬空亡在午未，丁卯旬空亡在辰巳</li>
                   <li>戊辰旬空亡在寅卯，己巳旬空亡在子丑</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 天煞 -->
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-red-800 mb-2">天煞</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主意外灾难，生活中的突发事件。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>特定的年月日时组合，或与其他煞星配合</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 童子煞 -->
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-red-800 mb-2">童子煞</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主孩童安全，或影响生育。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>日支或时支见卯，与辰或未相冲</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 天罗地网 -->
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-red-800 mb-2">天罗地网</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主法律纠纷或困扰。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>年支与日支形成特定的相冲或相害组合</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 红鸾 -->
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h3 class="font-semibold text-red-800 mb-2">红鸾</h3>
+              <div class="space-y-2">
+                <p class="text-gray-600">
+                  主婚姻和爱情的吉星。
+                </p>
+                <p class="text-gray-700 font-medium">形成条件：</p>
+                <ul class="list-disc list-inside text-gray-600 pl-4">
+                  <li>日柱或月柱见酉，与卯相合</li>
                 </ul>
               </div>
             </div>
